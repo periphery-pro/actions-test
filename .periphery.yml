@@ -1,0 +1,3 @@
+# This fixture verifies that the reusable workflow reads configuration committed
+# with the repository it scans.
+retain_public: true
