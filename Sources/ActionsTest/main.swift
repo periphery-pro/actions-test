@@ -10,4 +10,10 @@ struct UnusedGreeting {
     }
 }
 
+struct NewlyUnusedGreeting {
+    static func message() -> String {
+        "Only this declaration should be annotated"
+    }
+}
+
 print(Greeting.message())
