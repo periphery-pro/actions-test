@@ -1,4 +1,4 @@
-name: Test OSS scan workflow
+name: Test
 
 on:
   pull_request:
@@ -14,4 +14,4 @@ jobs:
     permissions:
       contents: read
       id-token: write
-    uses: periphery-pro/actions/.github/workflows/scan.yml@v1.0.0.beta.1
+    uses: periphery-pro/actions/.github/workflows/scan.yml@v1.0.0.beta.3

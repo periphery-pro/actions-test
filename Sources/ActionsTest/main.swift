@@ -4,4 +4,8 @@ struct Greeting {
     }
 }
 
+func unused() {
+    print("!!!")
+}
+
 print(Greeting.message())
