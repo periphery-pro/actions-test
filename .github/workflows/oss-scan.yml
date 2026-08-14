@@ -1,4 +1,4 @@
-name: Test OSS scan workflow
+name: Test
 
 on:
   pull_request:
