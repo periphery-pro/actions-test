@@ -4,4 +4,10 @@ struct Greeting {
     }
 }
 
+struct UnusedGreeting {
+    static func message() -> String {
+        "This declaration should produce a pull-request annotation"
+    }
+}
+
 print(Greeting.message())
