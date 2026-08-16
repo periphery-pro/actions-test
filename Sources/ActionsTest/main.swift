@@ -11,3 +11,9 @@ struct UnusedGreeting {
 }
 
 print(Greeting.message())
+
+struct ReportDemo {
+    static func unusedDemoFunction() -> String {
+        "This new declaration should trigger an annotation with a report link"
+    }
+}
