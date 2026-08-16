@@ -11,3 +11,5 @@ struct UnusedGreeting {
 }
 
 print(Greeting.message())
+
+func hello() {}
