@@ -1,0 +1,15 @@
+name: Periphery comment
+
+on:
+  workflow_run:
+    workflows: [Test]
+    types: [completed]
+
+permissions: {}
+
+jobs:
+  comment:
+    permissions:
+      actions: read
+      pull-requests: write
+    uses: periphery-pro/actions/.github/workflows/comment.yml@feat/job-summary
