@@ -1,3 +1,3 @@
 public func publicEntryPoint() -> String {
-    helperOutput()
+    "Helper output"
 }
