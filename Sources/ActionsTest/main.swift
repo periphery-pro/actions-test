@@ -4,4 +4,4 @@ struct Greeting {
     }
 }
 
-print(Greeting.message())
+print("Periphery OSS workflow fixture")
